@@ -12,7 +12,6 @@
         android:id="@+id/resources"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -40,6 +39,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="52dp"
+        android:layout_marginStart="120dp"
         android:text="Survival Guide"
         app:layout_constraintStart_toStartOf="@+id/resources"
         app:layout_constraintTop_toTopOf="@+id/resources" />
@@ -50,42 +50,20 @@
         android:layout_height="386dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/resources" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="37dp"
-        android:text="about"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="0dp"
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="3dp"
-        android:text="Donate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button5" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="Terms of Use"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintStart_toEndOf="@+id/button3" />
+        android:text="Have You Evacuated??"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="472dp" />
 
 
 </android.support.constraint.ConstraintLayout>
