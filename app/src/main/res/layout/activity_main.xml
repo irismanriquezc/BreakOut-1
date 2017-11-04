@@ -5,14 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.wicky.breakout.MainActivity"
-    tools:ignore="ExtraText">
+    tools:ignore="ExtraText"
+    tools:layout_editor_absoluteY="25dp">
 
 
     <resources
         android:id="@+id/resources"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/mapView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent">
 
         <string
@@ -37,33 +45,41 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="52dp"
-        android:layout_marginStart="120dp"
-        android:text="Survival Guide"
-        app:layout_constraintStart_toStartOf="@+id/resources"
-        app:layout_constraintTop_toTopOf="@+id/resources" />
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/survival_guide"
+        android:onClick="open"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="0dp"
-        android:layout_height="386dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="52dp"
+        android:layout_height="244dp"
+        android:layout_marginBottom="292dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/resources" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Have You Evacuated??"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="472dp" />
+        android:layout_marginTop="292dp"
+        android:text= "@string/evacuated"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
