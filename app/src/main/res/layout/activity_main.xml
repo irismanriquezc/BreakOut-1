@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wicky.breakout.MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <resources>
+        <string name = "Break Out"> Hello World </string>
+
+        <string name = "Hello World"> Hello World! Welcome to my app! </string>
+
+        <string name = "actoin settings "> Settings </string>
+
+
+
+    </resources>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="Survival Guide"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="378dp"
+        android:layout_height="386dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:text="about"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:text="Donate"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Terms of Use"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+
+</android.support.constraint.ConstraintLayout>
