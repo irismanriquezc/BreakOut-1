@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="215dp"
-        android:text="Earthquake"
+        android:text="@string/earthQ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -23,7 +23,8 @@
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="4dp"
-        android:text="Hurricane"
+        android:text="@string/hurricane"
+        android:onClick="Hurr"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

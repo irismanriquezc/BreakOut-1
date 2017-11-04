@@ -3,4 +3,6 @@
     <string name="title_activity_breakout_maps">Map</string>
     <string name="Survival_guide">Survival Guide </string>
     <string name="evacuate"> Have You Evacuated?? </string>
+    <string name="hurricane">Hurricane</string>
+    <string name="earthQ">Earthquake</string>
 </resources>
