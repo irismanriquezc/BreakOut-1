@@ -8,13 +8,29 @@
     tools:ignore="ExtraText">
 
 
-    <resources>
-        <string name = "Break Out"> Hello World </string>
+    <resources
+        android:id="@+id/resources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <string name = "Hello World"> Hello World! Welcome to my app! </string>
+        <string
+            android:name="Break Out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">Hello World</string>
 
-        <string name = "actoin settings "> Settings </string>
+        <string
+            android:name="Hello World"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">Hello World! Welcome to my app!</string>
 
+        <string
+            android:name="actoin settings "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">Settings
+        </string>
 
 
     </resources>
@@ -25,39 +41,51 @@
         android:layout_width="wrap_content"
         android:layout_height="52dp"
         android:text="Survival Guide"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="@+id/resources"
+        app:layout_constraintTop_toTopOf="@+id/resources" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
-        android:layout_width="378dp"
+        android:layout_width="0dp"
         android:layout_height="386dp"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="1dp" />
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/resources" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="78dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="37dp"
         android:text="about"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="79dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="3dp"
         android:text="Donate"
-        tools:layout_editor_absoluteX="302dp"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="155dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
         android:text="Terms of Use"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
 
 
 </android.support.constraint.ConstraintLayout>

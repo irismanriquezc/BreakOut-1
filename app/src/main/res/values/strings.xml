@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Break Out</string>
+    <string name="title_activity_breakout_maps">Map</string>
 </resources>
