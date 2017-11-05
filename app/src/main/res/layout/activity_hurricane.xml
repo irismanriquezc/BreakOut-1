@@ -6,4 +6,90 @@
     android:layout_height="match_parent"
     tools:context="com.example.wicky.breakout.hurricane">
 
+    <EditText
+        android:id="@+id/editText"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="247dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/Hreq1"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="162dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:text="@string/Precautions"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColorLink="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/Hreq5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="197dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="361dp"
+        android:layout_marginStart="184dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/Hreq2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="244dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/Hreq4"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginStart="4dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/Hreq3"
+        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
 </android.support.constraint.ConstraintLayout>

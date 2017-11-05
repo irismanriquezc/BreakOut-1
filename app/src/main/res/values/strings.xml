@@ -5,4 +5,10 @@
     <string name="evacuate"> Have You Evacuated?? </string>
     <string name="hurricane">Hurricane</string>
     <string name="earthQ">Earthquake</string>
+    <string name="Hreq1">Find glahslights and batteries</string>
+    <string name="Hreq2">Having or looking for a First Aid Kit ocould be essential</string>
+    <string name="Hreq3">Leave low lying areas</string>
+    <string name="Hreq4">Stay away from windows or cover them with boards</string>
+    <string name="Hreq5">If you are ordered to evacuate do so immediately</string>
+    <string name= "Precautions">Precautions to consider</string>
 </resources>
