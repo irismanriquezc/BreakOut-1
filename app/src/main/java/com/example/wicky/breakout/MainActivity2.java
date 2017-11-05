@@ -15,11 +15,15 @@ public class MainActivity2 extends AppCompatActivity {
     }
 // code in here
     public void Hurr(View view){
-    Intent DaHurricane = new Intent(this, hurricane.class)
+        Intent DaHurricane = new Intent(this, hurricane.class);
 
-    startActivity(DaHurricane)
+         startActivity(DaHurricane);
     }
 
+    public void Earthquake(View view){
+        Intent mundo = new Intent(this, EarthQuake.class);
 
+        startActivity(mundo);
+    }
 
 }

@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="215dp"
         android:text="@string/earthQ"
+        android:onClick="Earthquake"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
